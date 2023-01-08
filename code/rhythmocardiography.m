@@ -2,6 +2,8 @@ clc
 close all
 clear all
 
+%% Rhythmogram analysis
+
 global hMenu1 hAxes1 hAxes2 hAxes3 RR3
 
 figure(1)
@@ -25,5 +27,5 @@ title(hAxes2,'RR histogram')
 xlabel(hAxes3,'RR duration, s')
 ylabel(hAxes3,'RR duration, s')
 title(hAxes3,'Scattergram')
-%--------------------------------------------------------------------------
+
 RR3=load('samples/rhythmogram.txt');
